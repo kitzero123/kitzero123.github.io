@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	  * {
+		box-sizing: border-box;
+	}
+
+	body {
+		background-image: url('contents/skyview7.jpg');
+		background-repeat: no-repeat;
+        background-size: 100% 100%;
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	header {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	main {
+		padding: 20px;
+	}
+
+	section.gallery {
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		color: #FDFEFE;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.image-gallery, .video-gallery, .audio-gallery {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.image, .video, .audio {
+	margin: 10px;
+	flex-basis: calc(20% - 20px);
+	}
+
+	.image img {
+	width: 100%;
+	height: auto;
+	}
+
+	.video video, .audio audio {
+	width: 100%;
+	}
+
+	footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	}
+
+	p {
+	margin: 0;
+	}
+	.btn {
+			background-color: #5DADE2;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 4px;
+			cursor: pointer;
+			display: inline-block;
+			margin-top: 20px;
+		}
+	.btn:hover {
+			background-color: #E74C3C;
+		}
+</style>
+
+	<meta charset="UTF-8">
+	<title>Gallery Page</title>
+	<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+	<header>
+		<h1>Gallery Page</h1>
+	</header>
+
+	<main>
+		<section class="gallery">
+			<h2>Images</h2>
+			<div class="image-gallery">
+				<div class="image">
+					<img src="contents/cat1.jpeg" alt="Image 1">
+				</div>
+				<div class="image">
+					<img src="contents/cat2.jpeg" alt="Image 2">
+				</div>
+				<div class="image">
+					<img src="contents/cat3.jpeg" alt="Image 3">
+				</div>
+				<div class="image">
+					<img src="contents/cat4.jpeg" alt="Image 4">
+				</div>
+				<div class="image">
+					<img src="contents/cat5.jpeg" alt="Image 5">
+				</div>
+				<div class="image">
+					<img src="contents/cat6.jpeg" alt="Image 6">
+				</div>
+				<div class="image">
+					<img src="contents/cat7.jpeg" alt="Image 7">
+				</div>
+				<div class="image">
+					<img src="contents/cat8.jpeg" alt="Image 8">
+				</div>
+				<div class="image">
+					<img src="contents/cat9.jpeg" alt="Image 9">
+				</div>
+				<div class="image">
+					<img src="contents/cat10.jpeg" alt="Image 10">
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery">
+			<h2>Videos</h2>
+			<div class="video-gallery">
+				<div class="video">
+					<video src="contents/vcat1.mp4" controls></video>
+				</div>
+				<div class="video">
+					<video src="contents/vcat2.mp4" controls></video>
+				</div>
+				<div class="video">
+					<video src="contents/vcat3.mp4" controls></video>
+				</div>
+				<div class="video">
+					<video src="contents/vcat4.mp4" controls></video>
+				</div>
+				<div class="video">
+					<video src="contents/vcat5.mp4" controls></video>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery">
+			<h2>Audio</h2>
+			<div class="audio-gallery">
+				<div class="audio">
+					<audio src="contents/Sound7.mp3" controls></audio>
+				</div>
+				<div class="audio">
+					<audio src="contents/sound2.mp3" controls></audio>
+				</div>
+				<div class="audio">
+					<audio src="contents/sound3.mp3" controls></audio>
+				</div>
+				<div class="audio">
+					<audio src="contents/sound4.mp3" controls></audio>
+				</div>
+				<div class="audio">
+					<audio src="contents/sound6.mp3" controls></audio>
+				</div>
+			</div>
+		</section>
+	</main>
+    <a href="file:///Users/kitzero123/Documents/Projek1/CS574%20Assignment/index.html" class="btn">Back</a>
+	<footer>
+		<p>&copy; 2026 Gallery Page. All rights reserved.</p>
+	</footer>
+</body>
+</html>
